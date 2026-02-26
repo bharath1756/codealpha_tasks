@@ -1,0 +1,600 @@
+Microsoft Windows [Version 10.0.26200.7628]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Bhara>pip install numpy
+Requirement already satisfied: numpy in c:\users\bhara\anaconda3\lib\site-packages (2.3.5)
+
+C:\Users\Bhara>pip install matplotlib
+Requirement already satisfied: matplotlib in c:\users\bhara\anaconda3\lib\site-packages (3.10.6)
+Requirement already satisfied: contourpy>=1.0.1 in c:\users\bhara\anaconda3\lib\site-packages (from matplotlib) (1.3.3)
+Requirement already satisfied: cycler>=0.10 in c:\users\bhara\anaconda3\lib\site-packages (from matplotlib) (0.11.0)
+Requirement already satisfied: fonttools>=4.22.0 in c:\users\bhara\anaconda3\lib\site-packages (from matplotlib) (4.60.1)
+Requirement already satisfied: kiwisolver>=1.3.1 in c:\users\bhara\anaconda3\lib\site-packages (from matplotlib) (1.4.9)
+Requirement already satisfied: numpy>=1.23 in c:\users\bhara\anaconda3\lib\site-packages (from matplotlib) (2.3.5)
+Requirement already satisfied: packaging>=20.0 in c:\users\bhara\anaconda3\lib\site-packages (from matplotlib) (25.0)
+Requirement already satisfied: pillow>=8 in c:\users\bhara\anaconda3\lib\site-packages (from matplotlib) (12.0.0)
+Requirement already satisfied: pyparsing>=2.3.1 in c:\users\bhara\anaconda3\lib\site-packages (from matplotlib) (3.2.5)
+Requirement already satisfied: python-dateutil>=2.7 in c:\users\bhara\anaconda3\lib\site-packages (from matplotlib) (2.9.0.post0)
+Requirement already satisfied: six>=1.5 in c:\users\bhara\anaconda3\lib\site-packages (from python-dateutil>=2.7->matplotlib) (1.17.0)
+
+C:\Users\Bhara>pip install music21
+Collecting music21
+  Using cached music21-9.9.1-py3-none-any.whl.metadata (5.2 kB)
+Requirement already satisfied: chardet in c:\users\bhara\anaconda3\lib\site-packages (from music21) (5.2.0)
+Requirement already satisfied: joblib in c:\users\bhara\anaconda3\lib\site-packages (from music21) (1.5.2)
+Collecting jsonpickle (from music21)
+  Using cached jsonpickle-4.1.1-py3-none-any.whl.metadata (8.1 kB)
+Requirement already satisfied: matplotlib in c:\users\bhara\anaconda3\lib\site-packages (from music21) (3.10.6)
+Requirement already satisfied: more-itertools in c:\users\bhara\anaconda3\lib\site-packages (from music21) (10.8.0)
+Requirement already satisfied: numpy>=1.26.4 in c:\users\bhara\anaconda3\lib\site-packages (from music21) (2.3.5)
+Requirement already satisfied: requests in c:\users\bhara\anaconda3\lib\site-packages (from music21) (2.32.5)
+Collecting webcolors>=1.5 (from music21)
+  Using cached webcolors-25.10.0-py3-none-any.whl.metadata (2.2 kB)
+Requirement already satisfied: contourpy>=1.0.1 in c:\users\bhara\anaconda3\lib\site-packages (from matplotlib->music21) (1.3.3)
+Requirement already satisfied: cycler>=0.10 in c:\users\bhara\anaconda3\lib\site-packages (from matplotlib->music21) (0.11.0)
+Requirement already satisfied: fonttools>=4.22.0 in c:\users\bhara\anaconda3\lib\site-packages (from matplotlib->music21) (4.60.1)
+Requirement already satisfied: kiwisolver>=1.3.1 in c:\users\bhara\anaconda3\lib\site-packages (from matplotlib->music21) (1.4.9)
+Requirement already satisfied: packaging>=20.0 in c:\users\bhara\anaconda3\lib\site-packages (from matplotlib->music21)(25.0)
+Requirement already satisfied: pillow>=8 in c:\users\bhara\anaconda3\lib\site-packages (from matplotlib->music21) (12.0.0)
+Requirement already satisfied: pyparsing>=2.3.1 in c:\users\bhara\anaconda3\lib\site-packages (from matplotlib->music21) (3.2.5)
+Requirement already satisfied: python-dateutil>=2.7 in c:\users\bhara\anaconda3\lib\site-packages (from matplotlib->music21) (2.9.0.post0)
+Requirement already satisfied: six>=1.5 in c:\users\bhara\anaconda3\lib\site-packages (from python-dateutil>=2.7->matplotlib->music21) (1.17.0)
+Requirement already satisfied: charset_normalizer<4,>=2 in c:\users\bhara\anaconda3\lib\site-packages (from requests->music21) (3.4.4)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\bhara\anaconda3\lib\site-packages (from requests->music21) (3.11)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\bhara\anaconda3\lib\site-packages (from requests->music21) (2.5.0)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\bhara\anaconda3\lib\site-packages (from requests->music21) (2026.1.4)
+Using cached music21-9.9.1-py3-none-any.whl (20.1 MB)
+Using cached webcolors-25.10.0-py3-none-any.whl (14 kB)
+Using cached jsonpickle-4.1.1-py3-none-any.whl (47 kB)
+Installing collected packages: webcolors, jsonpickle, music21
+Successfully installed jsonpickle-4.1.1 music21-9.9.1 webcolors-25.10.0
+
+C:\Users\Bhara>pip install tensorflow
+Collecting tensorflow
+  Downloading tensorflow-2.20.0-cp313-cp313-win_amd64.whl.metadata (4.6 kB)
+Collecting absl-py>=1.0.0 (from tensorflow)
+  Using cached absl_py-2.4.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting astunparse>=1.6.0 (from tensorflow)
+  Using cached astunparse-1.6.3-py2.py3-none-any.whl.metadata (4.4 kB)
+Collecting flatbuffers>=24.3.25 (from tensorflow)
+  Using cached flatbuffers-25.12.19-py2.py3-none-any.whl.metadata (1.0 kB)
+Collecting gast!=0.5.0,!=0.5.1,!=0.5.2,>=0.2.1 (from tensorflow)
+  Using cached gast-0.7.0-py3-none-any.whl.metadata (1.5 kB)
+Collecting google_pasta>=0.1.1 (from tensorflow)
+  Using cached google_pasta-0.2.0-py3-none-any.whl.metadata (814 bytes)
+Collecting libclang>=13.0.0 (from tensorflow)
+  Using cached libclang-18.1.1-py2.py3-none-win_amd64.whl.metadata (5.3 kB)
+Collecting opt_einsum>=2.3.2 (from tensorflow)
+  Using cached opt_einsum-3.4.0-py3-none-any.whl.metadata (6.3 kB)
+Requirement already satisfied: packaging in c:\users\bhara\anaconda3\lib\site-packages (from tensorflow) (25.0)
+Requirement already satisfied: protobuf>=5.28.0 in c:\users\bhara\anaconda3\lib\site-packages (from tensorflow) (5.29.3)
+Requirement already satisfied: requests<3,>=2.21.0 in c:\users\bhara\anaconda3\lib\site-packages (from tensorflow) (2.32.5)
+Requirement already satisfied: setuptools in c:\users\bhara\anaconda3\lib\site-packages (from tensorflow) (80.9.0)
+Requirement already satisfied: six>=1.12.0 in c:\users\bhara\anaconda3\lib\site-packages (from tensorflow) (1.17.0)
+Collecting termcolor>=1.1.0 (from tensorflow)
+  Using cached termcolor-3.3.0-py3-none-any.whl.metadata (6.5 kB)
+Requirement already satisfied: typing_extensions>=3.6.6 in c:\users\bhara\anaconda3\lib\site-packages (from tensorflow)(4.15.0)
+Requirement already satisfied: wrapt>=1.11.0 in c:\users\bhara\anaconda3\lib\site-packages (from tensorflow) (1.17.0)
+Collecting grpcio<2.0,>=1.24.3 (from tensorflow)
+  Downloading grpcio-1.76.0-cp313-cp313-win_amd64.whl.metadata (3.8 kB)
+Collecting tensorboard~=2.20.0 (from tensorflow)
+  Using cached tensorboard-2.20.0-py3-none-any.whl.metadata (1.8 kB)
+Collecting keras>=3.10.0 (from tensorflow)
+  Using cached keras-3.13.2-py3-none-any.whl.metadata (6.3 kB)
+Requirement already satisfied: numpy>=1.26.0 in c:\users\bhara\anaconda3\lib\site-packages (from tensorflow) (2.3.5)
+Requirement already satisfied: h5py>=3.11.0 in c:\users\bhara\anaconda3\lib\site-packages (from tensorflow) (3.15.1)
+Collecting ml_dtypes<1.0.0,>=0.5.1 (from tensorflow)
+  Downloading ml_dtypes-0.5.4-cp313-cp313-win_amd64.whl.metadata (9.2 kB)
+Requirement already satisfied: charset_normalizer<4,>=2 in c:\users\bhara\anaconda3\lib\site-packages (from requests<3,>=2.21.0->tensorflow) (3.4.4)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\bhara\anaconda3\lib\site-packages (from requests<3,>=2.21.0->tensorflow) (3.11)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\bhara\anaconda3\lib\site-packages (from requests<3,>=2.21.0->tensorflow) (2.5.0)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\bhara\anaconda3\lib\site-packages (from requests<3,>=2.21.0->tensorflow) (2026.1.4)
+Requirement already satisfied: markdown>=2.6.8 in c:\users\bhara\anaconda3\lib\site-packages (from tensorboard~=2.20.0->tensorflow) (3.8)
+Requirement already satisfied: pillow in c:\users\bhara\anaconda3\lib\site-packages (from tensorboard~=2.20.0->tensorflow) (12.0.0)
+Collecting tensorboard-data-server<0.8.0,>=0.7.0 (from tensorboard~=2.20.0->tensorflow)
+  Using cached tensorboard_data_server-0.7.2-py3-none-any.whl.metadata (1.1 kB)
+Requirement already satisfied: werkzeug>=1.0.1 in c:\users\bhara\anaconda3\lib\site-packages (from tensorboard~=2.20.0->tensorflow) (3.1.3)
+Requirement already satisfied: wheel<1.0,>=0.23.0 in c:\users\bhara\anaconda3\lib\site-packages (from astunparse>=1.6.0->tensorflow) (0.45.1)
+Requirement already satisfied: rich in c:\users\bhara\anaconda3\lib\site-packages (from keras>=3.10.0->tensorflow) (14.2.0)
+Collecting namex (from keras>=3.10.0->tensorflow)
+  Using cached namex-0.1.0-py3-none-any.whl.metadata (322 bytes)
+Collecting optree (from keras>=3.10.0->tensorflow)
+  Downloading optree-0.18.0-cp313-cp313-win_amd64.whl.metadata (35 kB)
+Requirement already satisfied: MarkupSafe>=2.1.1 in c:\users\bhara\anaconda3\lib\site-packages (from werkzeug>=1.0.1->tensorboard~=2.20.0->tensorflow) (3.0.2)
+Requirement already satisfied: markdown-it-py>=2.2.0 in c:\users\bhara\anaconda3\lib\site-packages (from rich->keras>=3.10.0->tensorflow) (2.2.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in c:\users\bhara\anaconda3\lib\site-packages (from rich->keras>=3.10.0->tensorflow) (2.19.2)
+Requirement already satisfied: mdurl~=0.1 in c:\users\bhara\anaconda3\lib\site-packages (from markdown-it-py>=2.2.0->rich->keras>=3.10.0->tensorflow) (0.1.2)
+Downloading tensorflow-2.20.0-cp313-cp313-win_amd64.whl (332.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 332.0/332.0 MB 15.9 MB/s  0:00:22
+Downloading grpcio-1.76.0-cp313-cp313-win_amd64.whl (4.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.7/4.7 MB 15.9 MB/s  0:00:00
+Downloading ml_dtypes-0.5.4-cp313-cp313-win_amd64.whl (212 kB)
+Using cached tensorboard-2.20.0-py3-none-any.whl (5.5 MB)
+Using cached tensorboard_data_server-0.7.2-py3-none-any.whl (2.4 kB)
+Using cached absl_py-2.4.0-py3-none-any.whl (135 kB)
+Using cached astunparse-1.6.3-py2.py3-none-any.whl (12 kB)
+Using cached flatbuffers-25.12.19-py2.py3-none-any.whl (26 kB)
+Using cached gast-0.7.0-py3-none-any.whl (22 kB)
+Using cached google_pasta-0.2.0-py3-none-any.whl (57 kB)
+Using cached keras-3.13.2-py3-none-any.whl (1.5 MB)
+Using cached libclang-18.1.1-py2.py3-none-win_amd64.whl (26.4 MB)
+Using cached opt_einsum-3.4.0-py3-none-any.whl (71 kB)
+Using cached termcolor-3.3.0-py3-none-any.whl (7.7 kB)
+Using cached namex-0.1.0-py3-none-any.whl (5.9 kB)
+Downloading optree-0.18.0-cp313-cp313-win_amd64.whl (314 kB)
+Installing collected packages: namex, libclang, flatbuffers, termcolor, tensorboard-data-server, optree, opt_einsum, ml_dtypes, grpcio, google_pasta, gast, astunparse, absl-py, tensorboard, keras, tensorflow
+Successfully installed absl-py-2.4.0 astunparse-1.6.3 flatbuffers-25.12.19 gast-0.7.0 google_pasta-0.2.0 grpcio-1.76.0 keras-3.13.2 libclang-18.1.1 ml_dtypes-0.5.4 namex-0.1.0 opt_einsum-3.4.0 optree-0.18.0 tensorboard-2.20.0 tensorboard-data-server-0.7.2 tensorflow-2.20.0 termcolor-3.3.0
+
+C:\Users\Bhara>pip install jupyterlab
+Requirement already satisfied: jupyterlab in c:\users\bhara\anaconda3\lib\site-packages (4.4.7)
+Requirement already satisfied: async-lru>=1.0.0 in c:\users\bhara\anaconda3\lib\site-packages (from jupyterlab) (2.0.5)
+Requirement already satisfied: httpx<1,>=0.25.0 in c:\users\bhara\anaconda3\lib\site-packages (from jupyterlab) (0.28.1)
+Requirement already satisfied: ipykernel!=6.30.0,>=6.5.0 in c:\users\bhara\anaconda3\lib\site-packages (from jupyterlab) (6.31.0)
+Requirement already satisfied: jinja2>=3.0.3 in c:\users\bhara\anaconda3\lib\site-packages (from jupyterlab) (3.1.6)
+Requirement already satisfied: jupyter-core in c:\users\bhara\anaconda3\lib\site-packages (from jupyterlab) (5.8.1)
+Requirement already satisfied: jupyter-lsp>=2.0.0 in c:\users\bhara\anaconda3\lib\site-packages (from jupyterlab) (2.2.5)
+Requirement already satisfied: jupyter-server<3,>=2.4.0 in c:\users\bhara\anaconda3\lib\site-packages (from jupyterlab)(2.16.0)
+Requirement already satisfied: jupyterlab-server<3,>=2.27.1 in c:\users\bhara\anaconda3\lib\site-packages (from jupyterlab) (2.28.0)
+Requirement already satisfied: notebook-shim>=0.2 in c:\users\bhara\anaconda3\lib\site-packages (from jupyterlab) (0.2.4)
+Requirement already satisfied: packaging in c:\users\bhara\anaconda3\lib\site-packages (from jupyterlab) (25.0)
+Requirement already satisfied: setuptools>=41.1.0 in c:\users\bhara\anaconda3\lib\site-packages (from jupyterlab) (80.9.0)
+Requirement already satisfied: tornado>=6.2.0 in c:\users\bhara\anaconda3\lib\site-packages (from jupyterlab) (6.5.1)
+Requirement already satisfied: traitlets in c:\users\bhara\anaconda3\lib\site-packages (from jupyterlab) (5.14.3)
+Requirement already satisfied: anyio in c:\users\bhara\anaconda3\lib\site-packages (from httpx<1,>=0.25.0->jupyterlab) (4.10.0)
+Requirement already satisfied: certifi in c:\users\bhara\anaconda3\lib\site-packages (from httpx<1,>=0.25.0->jupyterlab) (2026.1.4)
+Requirement already satisfied: httpcore==1.* in c:\users\bhara\anaconda3\lib\site-packages (from httpx<1,>=0.25.0->jupyterlab) (1.0.9)
+Requirement already satisfied: idna in c:\users\bhara\anaconda3\lib\site-packages (from httpx<1,>=0.25.0->jupyterlab) (3.11)
+Requirement already satisfied: h11>=0.16 in c:\users\bhara\anaconda3\lib\site-packages (from httpcore==1.*->httpx<1,>=0.25.0->jupyterlab) (0.16.0)
+Requirement already satisfied: argon2-cffi>=21.1 in c:\users\bhara\anaconda3\lib\site-packages (from jupyter-server<3,>=2.4.0->jupyterlab) (21.3.0)
+Requirement already satisfied: jupyter-client>=7.4.4 in c:\users\bhara\anaconda3\lib\site-packages (from jupyter-server<3,>=2.4.0->jupyterlab) (8.6.3)
+Requirement already satisfied: jupyter-events>=0.11.0 in c:\users\bhara\anaconda3\lib\site-packages (from jupyter-server<3,>=2.4.0->jupyterlab) (0.12.0)
+Requirement already satisfied: jupyter-server-terminals>=0.4.4 in c:\users\bhara\anaconda3\lib\site-packages (from jupyter-server<3,>=2.4.0->jupyterlab) (0.5.3)
+Requirement already satisfied: nbconvert>=6.4.4 in c:\users\bhara\anaconda3\lib\site-packages (from jupyter-server<3,>=2.4.0->jupyterlab) (7.16.6)
+Requirement already satisfied: nbformat>=5.3.0 in c:\users\bhara\anaconda3\lib\site-packages (from jupyter-server<3,>=2.4.0->jupyterlab) (5.10.4)
+Requirement already satisfied: overrides>=5.0 in c:\users\bhara\anaconda3\lib\site-packages (from jupyter-server<3,>=2.4.0->jupyterlab) (7.7.0)
+Requirement already satisfied: prometheus-client>=0.9 in c:\users\bhara\anaconda3\lib\site-packages (from jupyter-server<3,>=2.4.0->jupyterlab) (0.21.1)
+Requirement already satisfied: pywinpty>=2.0.1 in c:\users\bhara\anaconda3\lib\site-packages (from jupyter-server<3,>=2.4.0->jupyterlab) (2.0.15)
+Requirement already satisfied: pyzmq>=24 in c:\users\bhara\anaconda3\lib\site-packages (from jupyter-server<3,>=2.4.0->jupyterlab) (27.1.0)
+Requirement already satisfied: send2trash>=1.8.2 in c:\users\bhara\anaconda3\lib\site-packages (from jupyter-server<3,>=2.4.0->jupyterlab) (1.8.2)
+Requirement already satisfied: terminado>=0.8.3 in c:\users\bhara\anaconda3\lib\site-packages (from jupyter-server<3,>=2.4.0->jupyterlab) (0.18.1)
+Requirement already satisfied: websocket-client>=1.7 in c:\users\bhara\anaconda3\lib\site-packages (from jupyter-server<3,>=2.4.0->jupyterlab) (1.8.0)
+Requirement already satisfied: babel>=2.10 in c:\users\bhara\anaconda3\lib\site-packages (from jupyterlab-server<3,>=2.27.1->jupyterlab) (2.17.0)
+Requirement already satisfied: json5>=0.9.0 in c:\users\bhara\anaconda3\lib\site-packages (from jupyterlab-server<3,>=2.27.1->jupyterlab) (0.12.1)
+Requirement already satisfied: jsonschema>=4.18.0 in c:\users\bhara\anaconda3\lib\site-packages (from jupyterlab-server<3,>=2.27.1->jupyterlab) (4.25.0)
+Requirement already satisfied: requests>=2.31 in c:\users\bhara\anaconda3\lib\site-packages (from jupyterlab-server<3,>=2.27.1->jupyterlab) (2.32.5)
+Requirement already satisfied: sniffio>=1.1 in c:\users\bhara\anaconda3\lib\site-packages (from anyio->httpx<1,>=0.25.0->jupyterlab) (1.3.0)
+Requirement already satisfied: argon2-cffi-bindings in c:\users\bhara\anaconda3\lib\site-packages (from argon2-cffi>=21.1->jupyter-server<3,>=2.4.0->jupyterlab) (25.1.0)
+Requirement already satisfied: comm>=0.1.1 in c:\users\bhara\anaconda3\lib\site-packages (from ipykernel!=6.30.0,>=6.5.0->jupyterlab) (0.2.3)
+Requirement already satisfied: debugpy>=1.6.5 in c:\users\bhara\anaconda3\lib\site-packages (from ipykernel!=6.30.0,>=6.5.0->jupyterlab) (1.8.16)
+Requirement already satisfied: ipython>=7.23.1 in c:\users\bhara\anaconda3\lib\site-packages (from ipykernel!=6.30.0,>=6.5.0->jupyterlab) (9.7.0)
+Requirement already satisfied: matplotlib-inline>=0.1 in c:\users\bhara\anaconda3\lib\site-packages (from ipykernel!=6.30.0,>=6.5.0->jupyterlab) (0.2.1)
+Requirement already satisfied: nest-asyncio>=1.4 in c:\users\bhara\anaconda3\lib\site-packages (from ipykernel!=6.30.0,>=6.5.0->jupyterlab) (1.6.0)
+Requirement already satisfied: psutil>=5.7 in c:\users\bhara\anaconda3\lib\site-packages (from ipykernel!=6.30.0,>=6.5.0->jupyterlab) (7.0.0)
+Requirement already satisfied: colorama>=0.4.4 in c:\users\bhara\anaconda3\lib\site-packages (from ipython>=7.23.1->ipykernel!=6.30.0,>=6.5.0->jupyterlab) (0.4.6)
+Requirement already satisfied: decorator>=4.3.2 in c:\users\bhara\anaconda3\lib\site-packages (from ipython>=7.23.1->ipykernel!=6.30.0,>=6.5.0->jupyterlab) (5.2.1)
+Requirement already satisfied: ipython-pygments-lexers>=1.0.0 in c:\users\bhara\anaconda3\lib\site-packages (from ipython>=7.23.1->ipykernel!=6.30.0,>=6.5.0->jupyterlab) (1.1.1)
+Requirement already satisfied: jedi>=0.18.1 in c:\users\bhara\anaconda3\lib\site-packages (from ipython>=7.23.1->ipykernel!=6.30.0,>=6.5.0->jupyterlab) (0.19.2)
+Requirement already satisfied: prompt_toolkit<3.1.0,>=3.0.41 in c:\users\bhara\anaconda3\lib\site-packages (from ipython>=7.23.1->ipykernel!=6.30.0,>=6.5.0->jupyterlab) (3.0.52)
+Requirement already satisfied: pygments>=2.11.0 in c:\users\bhara\anaconda3\lib\site-packages (from ipython>=7.23.1->ipykernel!=6.30.0,>=6.5.0->jupyterlab) (2.19.2)
+Requirement already satisfied: stack_data>=0.6.0 in c:\users\bhara\anaconda3\lib\site-packages (from ipython>=7.23.1->ipykernel!=6.30.0,>=6.5.0->jupyterlab) (0.6.3)
+Requirement already satisfied: wcwidth in c:\users\bhara\anaconda3\lib\site-packages (from prompt_toolkit<3.1.0,>=3.0.41->ipython>=7.23.1->ipykernel!=6.30.0,>=6.5.0->jupyterlab) (0.2.13)
+Requirement already satisfied: parso<0.9.0,>=0.8.4 in c:\users\bhara\anaconda3\lib\site-packages (from jedi>=0.18.1->ipython>=7.23.1->ipykernel!=6.30.0,>=6.5.0->jupyterlab) (0.8.5)
+Requirement already satisfied: MarkupSafe>=2.0 in c:\users\bhara\anaconda3\lib\site-packages (from jinja2>=3.0.3->jupyterlab) (3.0.2)
+Requirement already satisfied: attrs>=22.2.0 in c:\users\bhara\anaconda3\lib\site-packages (from jsonschema>=4.18.0->jupyterlab-server<3,>=2.27.1->jupyterlab) (25.4.0)
+Requirement already satisfied: jsonschema-specifications>=2023.03.6 in c:\users\bhara\anaconda3\lib\site-packages (fromjsonschema>=4.18.0->jupyterlab-server<3,>=2.27.1->jupyterlab) (2025.9.1)
+Requirement already satisfied: referencing>=0.28.4 in c:\users\bhara\anaconda3\lib\site-packages (from jsonschema>=4.18.0->jupyterlab-server<3,>=2.27.1->jupyterlab) (0.37.0)
+Requirement already satisfied: rpds-py>=0.7.1 in c:\users\bhara\anaconda3\lib\site-packages (from jsonschema>=4.18.0->jupyterlab-server<3,>=2.27.1->jupyterlab) (0.28.0)
+Requirement already satisfied: python-dateutil>=2.8.2 in c:\users\bhara\anaconda3\lib\site-packages (from jupyter-client>=7.4.4->jupyter-server<3,>=2.4.0->jupyterlab) (2.9.0.post0)
+Requirement already satisfied: platformdirs>=2.5 in c:\users\bhara\anaconda3\lib\site-packages (from jupyter-core->jupyterlab) (4.5.0)
+Requirement already satisfied: pywin32>=300 in c:\users\bhara\anaconda3\lib\site-packages (from jupyter-core->jupyterlab) (311)
+Requirement already satisfied: python-json-logger>=2.0.4 in c:\users\bhara\anaconda3\lib\site-packages (from jupyter-events>=0.11.0->jupyter-server<3,>=2.4.0->jupyterlab) (3.2.1)
+Requirement already satisfied: pyyaml>=5.3 in c:\users\bhara\anaconda3\lib\site-packages (from jupyter-events>=0.11.0->jupyter-server<3,>=2.4.0->jupyterlab) (6.0.3)
+Requirement already satisfied: rfc3339-validator in c:\users\bhara\anaconda3\lib\site-packages (from jupyter-events>=0.11.0->jupyter-server<3,>=2.4.0->jupyterlab) (0.1.4)
+Requirement already satisfied: rfc3986-validator>=0.1.1 in c:\users\bhara\anaconda3\lib\site-packages (from jupyter-events>=0.11.0->jupyter-server<3,>=2.4.0->jupyterlab) (0.1.1)
+Collecting fqdn (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.11.0->jupyter-server<3,>=2.4.0->jupyterlab)
+  Using cached fqdn-1.5.1-py3-none-any.whl.metadata (1.4 kB)
+Collecting isoduration (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.11.0->jupyter-server<3,>=2.4.0->jupyterlab)
+  Using cached isoduration-20.11.0-py3-none-any.whl.metadata (5.7 kB)
+Requirement already satisfied: jsonpointer>1.13 in c:\users\bhara\anaconda3\lib\site-packages (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.11.0->jupyter-server<3,>=2.4.0->jupyterlab) (3.0.0)
+Collecting rfc3987-syntax>=1.1.0 (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.11.0->jupyter-server<3,>=2.4.0->jupyterlab)
+  Using cached rfc3987_syntax-1.1.0-py3-none-any.whl.metadata (7.7 kB)
+Collecting uri-template (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.11.0->jupyter-server<3,>=2.4.0->jupyterlab)
+  Using cached uri_template-1.3.0-py3-none-any.whl.metadata (8.8 kB)
+Requirement already satisfied: webcolors>=24.6.0 in c:\users\bhara\anaconda3\lib\site-packages (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.11.0->jupyter-server<3,>=2.4.0->jupyterlab) (25.10.0)
+Requirement already satisfied: beautifulsoup4 in c:\users\bhara\anaconda3\lib\site-packages (from nbconvert>=6.4.4->jupyter-server<3,>=2.4.0->jupyterlab) (4.13.5)
+Requirement already satisfied: bleach!=5.0.0 in c:\users\bhara\anaconda3\lib\site-packages (from bleach[css]!=5.0.0->nbconvert>=6.4.4->jupyter-server<3,>=2.4.0->jupyterlab) (6.3.0)
+Requirement already satisfied: defusedxml in c:\users\bhara\anaconda3\lib\site-packages (from nbconvert>=6.4.4->jupyter-server<3,>=2.4.0->jupyterlab) (0.7.1)
+Requirement already satisfied: jupyterlab-pygments in c:\users\bhara\anaconda3\lib\site-packages (from nbconvert>=6.4.4->jupyter-server<3,>=2.4.0->jupyterlab) (0.3.0)
+Requirement already satisfied: mistune<4,>=2.0.3 in c:\users\bhara\anaconda3\lib\site-packages (from nbconvert>=6.4.4->jupyter-server<3,>=2.4.0->jupyterlab) (3.1.2)
+Requirement already satisfied: nbclient>=0.5.0 in c:\users\bhara\anaconda3\lib\site-packages (from nbconvert>=6.4.4->jupyter-server<3,>=2.4.0->jupyterlab) (0.10.2)
+Requirement already satisfied: pandocfilters>=1.4.1 in c:\users\bhara\anaconda3\lib\site-packages (from nbconvert>=6.4.4->jupyter-server<3,>=2.4.0->jupyterlab) (1.5.1)
+Requirement already satisfied: webencodings in c:\users\bhara\anaconda3\lib\site-packages (from bleach!=5.0.0->bleach[css]!=5.0.0->nbconvert>=6.4.4->jupyter-server<3,>=2.4.0->jupyterlab) (0.5.1)
+Requirement already satisfied: tinycss2<1.5,>=1.1.0 in c:\users\bhara\anaconda3\lib\site-packages (from bleach[css]!=5.0.0->nbconvert>=6.4.4->jupyter-server<3,>=2.4.0->jupyterlab) (1.4.0)
+Requirement already satisfied: fastjsonschema>=2.15 in c:\users\bhara\anaconda3\lib\site-packages (from nbformat>=5.3.0->jupyter-server<3,>=2.4.0->jupyterlab) (2.21.2)
+Requirement already satisfied: six>=1.5 in c:\users\bhara\anaconda3\lib\site-packages (from python-dateutil>=2.8.2->jupyter-client>=7.4.4->jupyter-server<3,>=2.4.0->jupyterlab) (1.17.0)
+Requirement already satisfied: charset_normalizer<4,>=2 in c:\users\bhara\anaconda3\lib\site-packages (from requests>=2.31->jupyterlab-server<3,>=2.27.1->jupyterlab) (3.4.4)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\bhara\anaconda3\lib\site-packages (from requests>=2.31->jupyterlab-server<3,>=2.27.1->jupyterlab) (2.5.0)
+Collecting lark>=1.2.2 (from rfc3987-syntax>=1.1.0->jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.11.0->jupyter-server<3,>=2.4.0->jupyterlab)
+  Using cached lark-1.3.1-py3-none-any.whl.metadata (1.8 kB)
+Requirement already satisfied: executing>=1.2.0 in c:\users\bhara\anaconda3\lib\site-packages (from stack_data>=0.6.0->ipython>=7.23.1->ipykernel!=6.30.0,>=6.5.0->jupyterlab) (2.2.1)
+Requirement already satisfied: asttokens>=2.1.0 in c:\users\bhara\anaconda3\lib\site-packages (from stack_data>=0.6.0->ipython>=7.23.1->ipykernel!=6.30.0,>=6.5.0->jupyterlab) (3.0.0)
+Requirement already satisfied: pure_eval in c:\users\bhara\anaconda3\lib\site-packages (from stack_data>=0.6.0->ipython>=7.23.1->ipykernel!=6.30.0,>=6.5.0->jupyterlab) (0.2.3)
+Requirement already satisfied: cffi>=1.0.1 in c:\users\bhara\anaconda3\lib\site-packages (from argon2-cffi-bindings->argon2-cffi>=21.1->jupyter-server<3,>=2.4.0->jupyterlab) (2.0.0)
+Requirement already satisfied: pycparser in c:\users\bhara\anaconda3\lib\site-packages (from cffi>=1.0.1->argon2-cffi-bindings->argon2-cffi>=21.1->jupyter-server<3,>=2.4.0->jupyterlab) (2.23)
+Requirement already satisfied: soupsieve>1.2 in c:\users\bhara\anaconda3\lib\site-packages (from beautifulsoup4->nbconvert>=6.4.4->jupyter-server<3,>=2.4.0->jupyterlab) (2.5)
+Requirement already satisfied: typing-extensions>=4.0.0 in c:\users\bhara\anaconda3\lib\site-packages (from beautifulsoup4->nbconvert>=6.4.4->jupyter-server<3,>=2.4.0->jupyterlab) (4.15.0)
+Requirement already satisfied: arrow>=0.15.0 in c:\users\bhara\anaconda3\lib\site-packages (from isoduration->jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.11.0->jupyter-server<3,>=2.4.0->jupyterlab) (1.4.0)
+Requirement already satisfied: tzdata in c:\users\bhara\anaconda3\lib\site-packages (from arrow>=0.15.0->isoduration->jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.11.0->jupyter-server<3,>=2.4.0->jupyterlab) (2025.2)
+Using cached rfc3987_syntax-1.1.0-py3-none-any.whl (8.0 kB)
+Using cached lark-1.3.1-py3-none-any.whl (113 kB)
+Using cached fqdn-1.5.1-py3-none-any.whl (9.1 kB)
+Using cached isoduration-20.11.0-py3-none-any.whl (11 kB)
+Using cached uri_template-1.3.0-py3-none-any.whl (11 kB)
+Installing collected packages: uri-template, lark, fqdn, rfc3987-syntax, isoduration
+Successfully installed fqdn-1.5.1 isoduration-20.11.0 lark-1.3.1 rfc3987-syntax-1.1.0 uri-template-1.3.0
+
+C:\Users\Bhara>jupyter lab
+[I 2026-01-30 19:28:27.877 ServerApp] ****************** ENVIRONMENT [Panels] Environment.PRODUCTION ******************
+[I 2026-01-30 19:28:27.882 ServerApp] ****************** ENVIRONMENT [Panels] Environment.PRODUCTION ******************
+[W 2026-01-30 19:28:28.265 ServerApp] Database not initialized by migration_upgrade(). Running it again
+Database not initialized by migration_upgrade(). Running it again
+[I 2026-01-30 19:28:28.265 ServerApp] --> Alembic Config: {'db_conn_url': 'sqlite:///C:\\Users\\Bhara\\anaconda_projects\\db\\project_filebrowser.db', 'db_path': 'C:\\Users\\Bhara\\anaconda_projects\\db\\project_filebrowser.db'}
+[I 2026-01-30 19:28:28.266 ServerApp] Default dir: C:\Users\Bhara. Running chdir...
+[I 2026-01-30 19:28:28.266 ServerApp] Checking for database file @ C:\Users\Bhara\anaconda_projects\db\project_filebrowser.db
+[I 2026-01-30 19:28:28.267 ServerApp] Creating database file...
+[I 2026-01-30 19:28:28.331 ServerApp] Migrations executed
+[I 2026-01-30 19:28:28.365 ServerApp] --> Alembic Config: {'db_conn_url': 'sqlite:///C:\\Users\\Bhara\\anaconda_projects\\db\\project_filebrowser.db', 'db_path': 'C:\\Users\\Bhara\\anaconda_projects\\db\\project_filebrowser.db'}
+[I 2026-01-30 19:28:28.365 ServerApp] Default dir: C:\Users\Bhara. Running chdir...
+[I 2026-01-30 19:28:28.366 ServerApp] Checking for database file @ C:\Users\Bhara\anaconda_projects\db\project_filebrowser.db
+[I 2026-01-30 19:28:28.366 ServerApp] Database file already exists
+[I 2026-01-30 19:28:28.374 ServerApp] Migrations executed
+[I 2026-01-30 19:28:28.375 ServerApp] Checking project configuration: C:\Users\Bhara. Running chdir...
+[I 2026-01-30 19:28:28.375 ServerApp] Initializing a new watchdog thread: []
+[I 2026-01-30 19:28:28.704 ServerApp] Successfully initialized a watchdog thread: [34368]
+[I 2026-01-30 19:28:29.935 ServerApp] aext_assistant | extension was successfully linked.
+[I 2026-01-30 19:28:29.936 ServerApp] aext_core | extension was successfully linked.
+[I 2026-01-30 19:28:29.936 ServerApp] aext_panels | extension was successfully linked.
+[I 2026-01-30 19:28:29.936 ServerApp] aext_share_notebook | extension was successfully linked.
+[I 2026-01-30 19:28:29.937 ServerApp] aext_toolbox | extension was successfully linked.
+[I 2026-01-30 19:28:29.937 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2026-01-30 19:28:29.944 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2026-01-30 19:28:29.952 ServerApp] jupyterlab | extension was successfully linked.
+[I 2026-01-30 19:28:29.958 ServerApp] notebook | extension was successfully linked.
+[I 2026-01-30 19:28:30.519 ServerApp] notebook_shim | extension was successfully linked.
+[I 2026-01-30 19:28:30.520 ServerApp] panel.io.jupyter_server_extension | extension was successfully linked.
+[I 2026-01-30 19:28:32.515 ServerApp] nb_conda_kernels | enabled, 1 kernels found.
+[I 2026-01-30 19:28:32.544 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2026-01-30 19:28:32.546 ServerApp] Registered aext_assistant server extension
+[I 2026-01-30 19:28:32.547 ServerApp] aext_assistant | extension was successfully loaded.
+[I 2026-01-30 19:28:32.548 ServerApp] Registered aext_core server extension
+[I 2026-01-30 19:28:32.548 ServerApp] aext_core | extension was successfully loaded.
+[I 2026-01-30 19:28:32.550 ServerApp] Registered aext_panels server extension
+[I 2026-01-30 19:28:32.550 ServerApp] aext_panels | extension was successfully loaded.
+[I 2026-01-30 19:28:32.551 ServerApp] Registered aext_share_notebook_server server extension
+[I 2026-01-30 19:28:32.551 ServerApp] aext_share_notebook | extension was successfully loaded.
+[I 2026-01-30 19:28:32.554 ServerApp] Registered aext_project_filebrowser_server extension
+[I 2026-01-30 19:28:32.554 ServerApp] Registered aext_events_server extension
+[I 2026-01-30 19:28:32.554 ServerApp] Registered aext_toolbox extension
+[I 2026-01-30 19:28:32.554 ServerApp] aext_toolbox | extension was successfully loaded.
+[I 2026-01-30 19:28:32.557 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2026-01-30 19:28:32.558 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2026-01-30 19:28:32.576 LabApp] JupyterLab extension loaded from C:\Users\Bhara\anaconda3\Lib\site-packages\jupyterlab
+[I 2026-01-30 19:28:32.577 LabApp] JupyterLab application directory is C:\Users\Bhara\anaconda3\share\jupyter\lab
+[I 2026-01-30 19:28:32.578 LabApp] Extension Manager is 'pypi'.
+[I 2026-01-30 19:28:32.907 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2026-01-30 19:28:32.918 ServerApp] notebook | extension was successfully loaded.
+[I 2026-01-30 19:28:32.920 ServerApp] panel.io.jupyter_server_extension | extension was successfully loaded.
+[I 2026-01-30 19:28:32.921 ServerApp] Serving notebooks from local directory: C:\Users\Bhara
+[I 2026-01-30 19:28:32.921 ServerApp] Jupyter Server 2.16.0 is running at:
+[I 2026-01-30 19:28:32.922 ServerApp] http://localhost:8888/lab?token=a56e5964b015e1132e7f87d6dc9991b3feb97b67fada3c0b
+[I 2026-01-30 19:28:32.922 ServerApp]     http://127.0.0.1:8888/lab?token=a56e5964b015e1132e7f87d6dc9991b3feb97b67fada3c0b
+[I 2026-01-30 19:28:32.922 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2026-01-30 19:28:32.954 ServerApp]
+
+    To access the server, open this file in a browser:
+        file:///C:/Users/Bhara/AppData/Roaming/jupyter/runtime/jpserver-27928-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/lab?token=a56e5964b015e1132e7f87d6dc9991b3feb97b67fada3c0b
+        http://127.0.0.1:8888/lab?token=a56e5964b015e1132e7f87d6dc9991b3feb97b67fada3c0b
+[I 2026-01-30 19:28:33.104 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server,r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[E 2026-01-30 19:28:35.131 ServerApp] Uncaught exception GET /aext_core_server/feature_flag/init?1769781514781 (::1)
+    HTTPServerRequest(protocol='http', host='localhost:8888', method='GET', uri='/aext_core_server/feature_flag/init?1769781514781', version='HTTP/1.1', remote_ip='::1')
+    Traceback (most recent call last):
+      File "C:\Users\Bhara\anaconda3\Lib\site-packages\tornado\web.py", line 1848, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "C:\Users\Bhara\anaconda3\Lib\site-packages\aext_core_server\handlers.py", line 40, in get
+        [account, organizations, account_notebooks] = await asyncio.gather(
+                                                      ^^^^^^^^^^^^^^^^^^^^^
+        ...<3 lines>...
+        )
+        ^
+      File "C:\Users\Bhara\anaconda3\Lib\site-packages\aext_shared\handler.py", line 119, in anaconda_cloud_proxy
+        user_access_credentials = await self.get_user_access_credentials(auth_optional=auth_optional)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Bhara\anaconda3\Lib\site-packages\aext_shared\handler.py", line 96, in get_user_access_credentials
+        raise e
+      File "C:\Users\Bhara\anaconda3\Lib\site-packages\aext_shared\handler.py", line 93, in get_user_access_credentials
+        new_access_token, expires_in = await get_access_token(self.request)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Bhara\anaconda3\Lib\site-packages\aext_shared\handler.py", line 182, in get_access_token
+        raise UnauthorizedError({"reason": "missing refresh_token"})
+    aext_shared.errors.UnauthorizedError: BackendError 403: missing refresh_token
+[W 2026-01-30 19:28:35.142 ServerApp] 403 GET /aext_core_server/feature_flag/init?1769781514781 (ce08b57dcf644d228264cf60ddbde38f@::1) 350.18ms referer=http://localhost:8888/lab
+[W 2026-01-30 19:28:36.050 ServerApp] 404 GET /aext_profile_manager_server/account_details?1769781515988 (ce08b57dcf644d228264cf60ddbde38f@::1) 30.80ms referer=http://localhost:8888/lab
+[E 2026-01-30 19:28:37.393 ServerApp] Uncaught exception GET /aext_core_server/feature_flag/init?1769781517117 (::1)
+    HTTPServerRequest(protocol='http', host='localhost:8888', method='GET', uri='/aext_core_server/feature_flag/init?1769781517117', version='HTTP/1.1', remote_ip='::1')
+    Traceback (most recent call last):
+      File "C:\Users\Bhara\anaconda3\Lib\site-packages\tornado\web.py", line 1848, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "C:\Users\Bhara\anaconda3\Lib\site-packages\aext_core_server\handlers.py", line 40, in get
+        [account, organizations, account_notebooks] = await asyncio.gather(
+                                                      ^^^^^^^^^^^^^^^^^^^^^
+        ...<3 lines>...
+        )
+        ^
+      File "C:\Users\Bhara\anaconda3\Lib\site-packages\aext_shared\handler.py", line 119, in anaconda_cloud_proxy
+        user_access_credentials = await self.get_user_access_credentials(auth_optional=auth_optional)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Bhara\anaconda3\Lib\site-packages\aext_shared\handler.py", line 96, in get_user_access_credentials
+        raise e
+      File "C:\Users\Bhara\anaconda3\Lib\site-packages\aext_shared\handler.py", line 93, in get_user_access_credentials
+        new_access_token, expires_in = await get_access_token(self.request)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Bhara\anaconda3\Lib\site-packages\aext_shared\handler.py", line 182, in get_access_token
+        raise UnauthorizedError({"reason": "missing refresh_token"})
+    aext_shared.errors.UnauthorizedError: BackendError 403: missing refresh_token
+[W 2026-01-30 19:28:37.400 ServerApp] 403 GET /aext_core_server/feature_flag/init?1769781517117 (ce08b57dcf644d228264cf60ddbde38f@::1) 57.66ms referer=http://localhost:8888/lab
+[W 2026-01-30 19:28:37.700 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2026-01-30 19:28:37.813 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "C:\Users\Bhara\anaconda3\Lib\site-packages\tornado\web.py", line 1848, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "C:\Users\Bhara\anaconda3\Lib\site-packages\aext_assistant_server\handlers.py", line 124, in get
+        raise HTTPError(403, reason="missing nucleus_token")
+    tornado.web.HTTPError: HTTP 403: missing nucleus_token
+[W 2026-01-30 19:28:37.817 ServerApp] 403 GET /aext_assistant_server/nucleus_token?1769781517798 (ce08b57dcf644d228264cf60ddbde38f@::1) 16.62ms referer=http://localhost:8888/lab
+[W 2026-01-30 19:28:37.914 ServerApp] 404 GET /aext_profile_manager_server/account_details?1769781517846 (ce08b57dcf644d228264cf60ddbde38f@::1) 9.90ms referer=http://localhost:8888/lab
+WebSocket connection closed.
+[I 2026-01-30 19:31:33.979 ServerApp] Creating new notebook in
+[I 2026-01-30 19:31:35.262 ServerApp] Kernel started: ef71567f-b1b6-4252-9280-8b6d1af3fd91
+[I 2026-01-30 19:31:36.361 ServerApp] Connecting to kernel ef71567f-b1b6-4252-9280-8b6d1af3fd91.
+[I 2026-01-30 19:31:36.375 ServerApp] Connecting to kernel ef71567f-b1b6-4252-9280-8b6d1af3fd91.
+[W 2026-01-30 19:31:36.389 ServerApp] The websocket_ping_timeout (90000) cannot be longer than the websocket_ping_interval (30000).
+    Setting websocket_ping_timeout=30000
+[I 2026-01-30 19:31:36.397 ServerApp] Connecting to kernel ef71567f-b1b6-4252-9280-8b6d1af3fd91.
+[W 2026-01-30 19:31:36.510 ServerApp] Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x0000027E40467ED0>
+[W 2026-01-30 19:31:36.518 ServerApp] Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x0000027E39588A50>
+WebSocket connection closed.
+[W 2026-01-30 19:33:13.416 ServerApp] 409 PATCH /api/contents/Untitled.ipynb?1769781793411 (::1): File already exists: main.ipynb
+[W 2026-01-30 19:33:13.417 ServerApp] wrote error: 'File already exists: main.ipynb'
+    Traceback (most recent call last):
+      File "C:\Users\Bhara\anaconda3\Lib\site-packages\tornado\web.py", line 1848, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "C:\Users\Bhara\anaconda3\Lib\site-packages\jupyter_server\auth\decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "C:\Users\Bhara\anaconda3\Lib\site-packages\jupyter_server\services\contents\handlers.py", line 206, in patch
+        model = await ensure_async(cm.update(model, path))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Bhara\anaconda3\Lib\site-packages\jupyter_core\utils\__init__.py", line 197, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "C:\Users\Bhara\anaconda3\Lib\site-packages\jupyter_server\services\contents\manager.py", line 917, in update
+        await self.rename(path, new_path)
+      File "C:\Users\Bhara\anaconda3\Lib\site-packages\jupyter_server\services\contents\manager.py", line 904, in rename
+        await self.rename_file(old_path, new_path)
+      File "C:\Users\Bhara\anaconda3\Lib\site-packages\jupyter_server\services\contents\filemanager.py", line 1064, in rename_file
+        raise web.HTTPError(409, "File already exists: %s" % new_path)
+    tornado.web.HTTPError: HTTP 409: Conflict (File already exists: main.ipynb)
+[W 2026-01-30 19:33:13.423 ServerApp] 409 PATCH /api/contents/Untitled.ipynb?1769781793411 (ce08b57dcf644d228264cf60ddbde38f@::1) 9.47ms referer=http://localhost:8888/lab/tree/Untitled.ipynb?
+[I 2026-01-30 19:33:34.422 ServerApp] Saving file at /Untitled.ipynb
+[W 2026-01-30 19:33:35.273 ServerApp] 409 PATCH /api/contents/Untitled.ipynb?1769781815269 (::1): File already exists: main.ipynb
+[W 2026-01-30 19:33:35.274 ServerApp] wrote error: 'File already exists: main.ipynb'
+    Traceback (most recent call last):
+      File "C:\Users\Bhara\anaconda3\Lib\site-packages\tornado\web.py", line 1848, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "C:\Users\Bhara\anaconda3\Lib\site-packages\jupyter_server\auth\decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "C:\Users\Bhara\anaconda3\Lib\site-packages\jupyter_server\services\contents\handlers.py", line 206, in patch
+        model = await ensure_async(cm.update(model, path))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Bhara\anaconda3\Lib\site-packages\jupyter_core\utils\__init__.py", line 197, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "C:\Users\Bhara\anaconda3\Lib\site-packages\jupyter_server\services\contents\manager.py", line 917, in update
+        await self.rename(path, new_path)
+      File "C:\Users\Bhara\anaconda3\Lib\site-packages\jupyter_server\services\contents\manager.py", line 904, in rename
+        await self.rename_file(old_path, new_path)
+      File "C:\Users\Bhara\anaconda3\Lib\site-packages\jupyter_server\services\contents\filemanager.py", line 1064, in rename_file
+        raise web.HTTPError(409, "File already exists: %s" % new_path)
+    tornado.web.HTTPError: HTTP 409: Conflict (File already exists: main.ipynb)
+[W 2026-01-30 19:33:35.276 ServerApp] 409 PATCH /api/contents/Untitled.ipynb?1769781815269 (ce08b57dcf644d228264cf60ddbde38f@::1) 5.39ms referer=http://localhost:8888/lab/tree/Untitled.ipynb?
+[I 2026-01-30 19:33:49.381 ServerApp] Saving file at /Untitled.ipynb
+[W 2026-01-30 19:33:49.414 ServerApp] 409 PATCH /api/contents/Untitled.ipynb?1769781829407 (::1): File already exists: main.ipynb
+[W 2026-01-30 19:33:49.415 ServerApp] wrote error: 'File already exists: main.ipynb'
+    Traceback (most recent call last):
+      File "C:\Users\Bhara\anaconda3\Lib\site-packages\tornado\web.py", line 1848, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "C:\Users\Bhara\anaconda3\Lib\site-packages\jupyter_server\auth\decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "C:\Users\Bhara\anaconda3\Lib\site-packages\jupyter_server\services\contents\handlers.py", line 206, in patch
+        model = await ensure_async(cm.update(model, path))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Bhara\anaconda3\Lib\site-packages\jupyter_core\utils\__init__.py", line 197, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "C:\Users\Bhara\anaconda3\Lib\site-packages\jupyter_server\services\contents\manager.py", line 917, in update
+        await self.rename(path, new_path)
+      File "C:\Users\Bhara\anaconda3\Lib\site-packages\jupyter_server\services\contents\manager.py", line 904, in rename
+        await self.rename_file(old_path, new_path)
+      File "C:\Users\Bhara\anaconda3\Lib\site-packages\jupyter_server\services\contents\filemanager.py", line 1064, in rename_file
+        raise web.HTTPError(409, "File already exists: %s" % new_path)
+    tornado.web.HTTPError: HTTP 409: Conflict (File already exists: main.ipynb)
+[W 2026-01-30 19:33:49.417 ServerApp] 409 PATCH /api/contents/Untitled.ipynb?1769781829407 (ce08b57dcf644d228264cf60ddbde38f@::1) 6.42ms referer=http://localhost:8888/lab/tree/Untitled.ipynb?
+WebSocket connection closed.
+[I 2026-01-30 19:35:34.474 ServerApp] Saving file at /Untitled.ipynb
+WebSocket connection closed.
+[I 2026-01-30 19:37:34.639 ServerApp] Saving file at /Untitled.ipynb
+WebSocket connection closed.
+[I 2026-01-30 19:39:34.694 ServerApp] Saving file at /Untitled.ipynb
+WebSocket connection closed.
+[I 2026-01-30 19:41:34.774 ServerApp] Saving file at /Untitled.ipynb
+[I 2026-01-30 19:41:50.810 ServerApp] Kernel started: c06f8775-980f-40e6-ae8e-866caa6d30bd
+[I 2026-01-30 19:41:50.814 ServerApp] Kernel shutdown: ef71567f-b1b6-4252-9280-8b6d1af3fd91
+[I 2026-01-30 19:41:50.969 ServerApp] Starting buffering for ef71567f-b1b6-4252-9280-8b6d1af3fd91:bf6ae61e-0486-49b5-85c1-16ce8de8e337
+[I 2026-01-30 19:41:52.023 ServerApp] Connecting to kernel c06f8775-980f-40e6-ae8e-866caa6d30bd.
+WebSocket connection closed.
+[I 2026-01-30 19:43:34.817 ServerApp] Saving file at /Untitled.ipynb
+WebSocket connection closed.
+[I 2026-01-30 19:45:34.869 ServerApp] Saving file at /Untitled.ipynb
+WebSocket connection closed.
+[I 2026-01-30 19:47:35.632 ServerApp] Saving file at /Untitled.ipynb
+WebSocket connection closed.
+[I 2026-01-30 19:49:35.673 ServerApp] Saving file at /Untitled.ipynb
+WebSocket connection closed.
+[I 2026-01-30 19:51:35.732 ServerApp] Saving file at /Untitled.ipynb
+WebSocket connection closed.
+[I 2026-01-30 19:53:35.774 ServerApp] Saving file at /Untitled.ipynb
+WebSocket connection closed.
+[I 2026-01-30 19:55:36.631 ServerApp] Saving file at /Untitled.ipynb
+WebSocket connection closed.
+WebSocket connection closed.
+WebSocket connection closed.
+[I 2026-01-30 20:01:37.333 ServerApp] Saving file at /Untitled.ipynb
+WebSocket connection closed.
+[I 2026-01-30 20:03:37.379 ServerApp] Saving file at /Untitled.ipynb
+WebSocket connection closed.
+[I 2026-01-30 20:05:37.924 ServerApp] Saving file at /Untitled.ipynb
+[I 2026-01-30 20:07:37.973 ServerApp] Saving file at /Untitled.ipynb
+WebSocket connection closed.
+[I 2026-01-30 20:09:38.022 ServerApp] Saving file at /Untitled.ipynb
+WebSocket connection closed.
+[I 2026-01-30 20:11:38.068 ServerApp] Saving file at /Untitled.ipynb
+WebSocket connection closed.
+[I 2026-01-30 20:13:38.121 ServerApp] Saving file at /Untitled.ipynb
+WebSocket connection closed.
+[I 2026-01-30 20:14:06.625 ServerApp] Saving file at /Untitled.ipynb
+[I 2026-01-30 20:14:25.311 ServerApp] Saving file at /Untitled.ipynb
+[I 2026-01-30 20:14:32.342 ServerApp] Saving file at /Untitled.ipynb
+[I 2026-01-30 20:14:36.559 ServerApp] Saving file at /Untitled.ipynb
+WebSocket connection closed.
+[I 2026-01-30 20:14:39.776 ServerApp] Starting buffering for c06f8775-980f-40e6-ae8e-866caa6d30bd:bf6ae61e-0486-49b5-85c1-16ce8de8e337
+[I 2026-01-30 20:14:50.427 ServerApp] Connecting to kernel c06f8775-980f-40e6-ae8e-866caa6d30bd.
+[I 2026-01-30 20:14:50.427 ServerApp] Restoring connection for c06f8775-980f-40e6-ae8e-866caa6d30bd:bf6ae61e-0486-49b5-85c1-16ce8de8e337
+WebSocket connection closed.
+WebSocket connection closed.
+WebSocket connection closed.
+WebSocket connection closed.
+WebSocket connection closed.
+WebSocket connection closed.
+[I 2026-01-30 20:26:54.231 ServerApp] Starting buffering for c06f8775-980f-40e6-ae8e-866caa6d30bd:bf6ae61e-0486-49b5-85c1-16ce8de8e337
+[I 2026-01-30 20:32:28.622 ServerApp] Connecting to kernel c06f8775-980f-40e6-ae8e-866caa6d30bd.
+[I 2026-01-30 20:32:28.623 ServerApp] Restoring connection for c06f8775-980f-40e6-ae8e-866caa6d30bd:bf6ae61e-0486-49b5-85c1-16ce8de8e337
+WebSocket connection closed.
+[I 2026-01-30 20:32:30.571 ServerApp] Starting buffering for c06f8775-980f-40e6-ae8e-866caa6d30bd:bf6ae61e-0486-49b5-85c1-16ce8de8e337
+[I 2026-01-30 20:47:07.242 ServerApp] Connecting to kernel c06f8775-980f-40e6-ae8e-866caa6d30bd.
+[I 2026-01-30 20:47:07.244 ServerApp] Restoring connection for c06f8775-980f-40e6-ae8e-866caa6d30bd:bf6ae61e-0486-49b5-85c1-16ce8de8e337
+[I 2026-01-30 20:49:03.925 ServerApp] Saving file at /Untitled.ipynb
+WebSocket connection closed.
+[I 2026-01-30 20:51:03.979 ServerApp] Saving file at /Untitled.ipynb
+WebSocket connection closed.
+[I 2026-01-30 20:53:04.034 ServerApp] Saving file at /Untitled.ipynb
+WebSocket connection closed.
+WebSocket connection closed.
+[I 2026-01-30 20:57:04.632 ServerApp] Saving file at /Untitled.ipynb
+WebSocket connection closed.
+[I 2026-01-30 20:59:06.074 ServerApp] Saving file at /Untitled.ipynb
+WebSocket connection closed.
+[I 2026-01-30 21:01:06.633 ServerApp] Saving file at /Untitled.ipynb
+WebSocket connection closed.
+[I 2026-01-30 21:03:07.637 ServerApp] Saving file at /Untitled.ipynb
+WebSocket connection closed.
+[I 2026-01-30 21:05:07.702 ServerApp] Saving file at /Untitled.ipynb
+WebSocket connection closed.
+[I 2026-01-30 21:07:07.755 ServerApp] Saving file at /Untitled.ipynb
+WebSocket connection closed.
+[I 2026-01-30 21:08:28.838 ServerApp] Saving file at /Untitled.ipynb
+[I 2026-01-30 21:08:30.422 ServerApp] Starting buffering for c06f8775-980f-40e6-ae8e-866caa6d30bd:bf6ae61e-0486-49b5-85c1-16ce8de8e337
+WebSocket connection closed.
+[I 2026-01-30 21:19:09.630 ServerApp] Connecting to kernel c06f8775-980f-40e6-ae8e-866caa6d30bd.
+[I 2026-01-30 21:19:09.630 ServerApp] Restoring connection for c06f8775-980f-40e6-ae8e-866caa6d30bd:bf6ae61e-0486-49b5-85c1-16ce8de8e337
+[I 2026-01-30 21:19:10.803 ServerApp] Starting buffering for c06f8775-980f-40e6-ae8e-866caa6d30bd:bf6ae61e-0486-49b5-85c1-16ce8de8e337
+WebSocket connection closed.
+[I 2026-01-30 21:34:10.618 ServerApp] Connecting to kernel c06f8775-980f-40e6-ae8e-866caa6d30bd.
+[I 2026-01-30 21:34:10.619 ServerApp] Restoring connection for c06f8775-980f-40e6-ae8e-866caa6d30bd:bf6ae61e-0486-49b5-85c1-16ce8de8e337
+WebSocket connection closed.
+WebSocket connection closed.
+[I 2026-01-30 21:37:25.181 ServerApp] Starting buffering for c06f8775-980f-40e6-ae8e-866caa6d30bd:bf6ae61e-0486-49b5-85c1-16ce8de8e337
+[I 2026-01-30 21:46:06.614 ServerApp] Connecting to kernel c06f8775-980f-40e6-ae8e-866caa6d30bd.
+[I 2026-01-30 21:46:06.615 ServerApp] Restoring connection for c06f8775-980f-40e6-ae8e-866caa6d30bd:bf6ae61e-0486-49b5-85c1-16ce8de8e337
+[I 2026-01-30 21:47:03.512 ServerApp] Starting buffering for c06f8775-980f-40e6-ae8e-866caa6d30bd:bf6ae61e-0486-49b5-85c1-16ce8de8e337
+WebSocket connection closed.
+[I 2026-01-30 22:02:51.614 ServerApp] Connecting to kernel c06f8775-980f-40e6-ae8e-866caa6d30bd.
+[I 2026-01-30 22:02:51.615 ServerApp] Restoring connection for c06f8775-980f-40e6-ae8e-866caa6d30bd:bf6ae61e-0486-49b5-85c1-16ce8de8e337
+[I 2026-01-30 22:04:50.239 ServerApp] Saving file at /Untitled.ipynb
+WebSocket connection closed.
+[I 2026-01-30 22:06:50.637 ServerApp] Saving file at /Untitled.ipynb
+WebSocket connection closed.
+[I 2026-01-30 22:08:51.628 ServerApp] Saving file at /Untitled.ipynb
+WebSocket connection closed.
+2026-01-30 22:09:54.351690: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-01-30 22:10:30.091768: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+[I 2026-01-30 22:10:51.694 ServerApp] Saving file at /Untitled.ipynb
+WebSocket connection closed.
+2026-01-30 22:12:49.971237: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized touse available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with theappropriate compiler flags.
+[I 2026-01-30 22:12:51.754 ServerApp] Saving file at /Untitled.ipynb
+WebSocket connection closed.
+[I 2026-01-30 22:14:51.816 ServerApp] Saving file at /Untitled.ipynb
+WebSocket connection closed.
+WebSocket connection closed.
+WebSocket connection closed.
+WebSocket connection closed.
+[I 2026-01-30 22:22:52.630 ServerApp] Saving file at /Untitled.ipynb
+WebSocket connection closed.
+[I 2026-01-30 22:24:53.628 ServerApp] Saving file at /Untitled.ipynb
+WebSocket connection closed.
+[I 2026-01-30 22:26:54.628 ServerApp] Saving file at /Untitled.ipynb
+WebSocket connection closed.
+[I 2026-01-30 22:28:54.680 ServerApp] Saving file at /Untitled.ipynb
+WebSocket connection closed.
+[I 2026-01-30 22:30:55.637 ServerApp] Saving file at /Untitled.ipynb
+WebSocket connection closed.
+[I 2026-01-30 22:32:55.695 ServerApp] Saving file at /Untitled.ipynb
+WebSocket connection closed.
+[I 2026-01-30 22:34:55.760 ServerApp] Saving file at /Untitled.ipynb
+WebSocket connection closed.
+[I 2026-01-30 22:36:55.828 ServerApp] Saving file at /Untitled.ipynb
+WebSocket connection closed.
+[I 2026-01-30 22:38:58.100 ServerApp] Saving file at /Untitled.ipynb
+[I 2026-01-30 22:39:29.147 ServerApp] Creating new notebook in /Downloads
+[I 2026-01-30 22:39:29.508 ServerApp] Kernel started: 4c1e4b0e-59b7-4233-8bc5-c3cd8ac36b6d
+[I 2026-01-30 22:39:31.200 ServerApp] Connecting to kernel 4c1e4b0e-59b7-4233-8bc5-c3cd8ac36b6d.
+WebSocket connection closed.
+[I 2026-01-30 22:41:29.385 ServerApp] Saving file at /Downloads/Untitled.ipynb
+WebSocket connection closed.
+[I 2026-01-30 22:42:55.921 ServerApp] Saving file at /Untitled.ipynb
+WebSocket connection closed.
+[I 2026-01-30 22:44:56.027 ServerApp] Saving file at /Untitled.ipynb
+WebSocket connection closed.
+[I 2026-01-30 22:46:56.635 ServerApp] Saving file at /Untitled.ipynb
+WebSocket connection closed.
+WebSocket connection closed.
+[I 2026-01-30 22:50:57.637 ServerApp] Saving file at /Untitled.ipynb
+WebSocket connection closed.
+WebSocket connection closed.
+WebSocket connection closed.
+WebSocket connection closed.
+WebSocket connection closed.
+WebSocket connection closed.
+WebSocket connection closed.
+WebSocket connection closed.
+WebSocket connection closed.
